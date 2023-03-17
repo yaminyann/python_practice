@@ -1,0 +1,15 @@
+# Exception Handling try except
+
+x = int(input())
+y = int(input())
+def Excephandle(x,y):
+    try:
+         ans = x / y
+    except Exception as name:
+        print("not posible",name)
+    else:
+        print('The ans is ', ans)
+    finally:
+        print('Programm Finish')
+              
+Excephandle(x,y)
