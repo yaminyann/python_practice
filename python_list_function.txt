@@ -1,0 +1,18 @@
+# list referance with function
+
+l = [1,2,3,4,5,6]
+
+def my_list(new_l):
+    new_l.append('new')
+my_list(l)
+print(l)
+
+# no change list with function work
+
+import copy as c
+l = [1,2,3,4,5,6]
+
+def my_list(new_l):
+    new_l.append('new')
+nl = c.copy(l)
+my_list(nl)
