@@ -1,0 +1,9 @@
+l = [2,3,4,5,6,1,24,21,63,74,84,876,14,764,85,85]
+f = int(input())
+for i in l :
+    if f in l :
+        print('found')
+        break
+    else:
+        print('Not found')
+        break
