@@ -1,0 +1,27 @@
+# Binary Search Programm
+
+def binary_search(my_list, element, low , high):
+
+    while low <= high :
+        mid = low + ( high - low )//2
+
+        if my_list[mid] == element:
+            return mid
+
+        elif my_list[mid] < element:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+my_list = [2,3,4,5,6,7,8,9]
+element = int(input('Enter Find element :  '))
+
+result = binary_search(my_list,element,0,len(my_list)-1)
+
+if result != -1 :
+    print('Element is Found at index :'+str(result))
+else:
+    print('Not Found')
+    
+    
