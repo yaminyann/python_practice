@@ -1,0 +1,10 @@
+a = [3, 4, 5, 6, 7, 8,32,52,13,6,734,85,985,23,234,1,6,7,8,2,6,89]
+def odd_print(array):
+    new_array = []
+
+    for i in range (len(array)-1):
+        if array[i] % 2 != 0 :
+            new_array.append(array[i])
+    return new_array
+
+print(odd_print(a))
