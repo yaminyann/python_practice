@@ -1,0 +1,7 @@
+import csv
+
+output_file = open('out.csv', 'w' , newline ='')
+output_writer = csv.writer(output_file,delimiter='#')
+output_writer.writerow(['1','2','3','4','5'])
+output_writer.writerow(['1','2','3','4','5'])
+output_file.close()
