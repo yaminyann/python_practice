@@ -1,0 +1,5 @@
+# multiple value at one in list
+
+my_tech = ['iphone','samsung','mi','asus','vivo','oppo']
+a,b,c,d,e,f = my_tech
+print(a,b,c,d,e,f)
