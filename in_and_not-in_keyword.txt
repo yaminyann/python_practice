@@ -1,0 +1,13 @@
+# in and not end keywords
+
+
+my_tech = ['iphone','samsung','mi','asus',]
+
+print('Enter a tech name : ')
+name = input()
+
+if name not in my_tech:
+    print('not found in the list')
+
+else:
+    print(name, 'is my tech.')
