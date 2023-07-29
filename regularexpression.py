@@ -1,5 +1,5 @@
 import re
-"""
+
 s = "Afganistan,America,Bangladesh,Canada,Denmark,England,Greenland,Iceland,Netherlands,New Zealand,Sweden,Switzerland"
 countries = s.split(",")
 
@@ -88,5 +88,5 @@ print(re.findall(r'^.+?$',text,re.MULTILINE))
 s = "<li>Tamim</li><li>Shakib</li><li>Mahmudullah</li><li>Mominul</li>"
 result = re.findall(r'<li>(.*?)</li>',s)
 print(result)
-"""
+
 
